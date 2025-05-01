@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) {
+    .cart-summary-card {
+      height: 210px;
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      align-self: flex-end;
+    }
+  
+    .inner-sub-container {
+      height: 100%;
+      min-width: 75%;
+      max-width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  
+    .Head-container {
+      height: 30px;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+    }
+  
+    .summary-head {
+      font-family: 'Roboto';
+      font-size: 26px;
+      font-weight: bold;
+      color: #616e7c;
+      line-height: 14px;
+      margin-right: 10px;
+    }
+  
+    .summary-amount {
+      font-family: 'Roboto';
+      font-size: 30px;
+      font-weight: bold;
+      color: #171f46;
+    }
+  
+    .summary-para {
+      font-family: 'Roboto';
+      font-size: 18px;
+      font-weight: 401;
+      color: #616e7c;
+      margin-bottom: 30px;
+    }
+  
+    .checkout-button {
+      height: 45px;
+      width: 95%;
+      font-family: 'Roboto';
+      font-size: 15px;
+      font-weight: normal;
+      color: #ffffff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: 0px;
+      border-radius: 6px;
+      background-color: #0b69ff;
+    }
+  }
+  
